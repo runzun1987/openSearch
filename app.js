@@ -45,4 +45,4 @@ app.get('/', async (req, res) => {
   res.status(200).json({ data: ipInfo });
 });
 
-app.listen(process.env.PORT || 3001);
+app.listen(3000);
