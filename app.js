@@ -4,7 +4,6 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import getIP from 'ipware';
 
-import publicIp from 'public-ip';
 
 const app = express();
 
